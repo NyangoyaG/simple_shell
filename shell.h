@@ -1,4 +1,3 @@
-
 #ifndef _SHELL_H_
 #define _SHELL_H_
 
@@ -232,3 +231,5 @@ void check_chain(info_t *, char *, size_t *, size_t, size_t);
 int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
+
+#endif
